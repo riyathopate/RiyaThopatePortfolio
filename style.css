@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+
+/* {
+    background-color: pink;
+     background-color: rgb(247, 221, 225);
+}*/
+
+nav {
+    background-color: pink;
+}
+
+.logo {
+    font-family: 'Brush Script MT', cursive;
+    padding-left: 2vw;
+    font-size: 3vw;
+    width: 65vw;
+    font-weight: 700;
+}
+
+.logo {
+    color: black;
+}
+
+.logo2 {
+    color: rgb(195, 3, 115);
+}
+
+.nav-item {
+    padding-right: 3vw;
+    font-family: 'Tangerine';
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    transform: scale(1.3);
+}
+
+.navbar {
+    padding: 1vw;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.collapse {
+    size: 10vw;
+}
+
+.about {
+    text-align: center;
+    font-size: 3vw;
+    background-color: pink;
+}
+
+.info {
+    text-align: center;
+    font-family: 'Goergia';
+    font-size: 3vw;
+    padding: 8vw;
+}
+
+.profile {
+    border-radius: 100%;
+    border: solid black;
+}
+
+.hii {
+    font-family: 'Sofia';
+    color: rgb(251, 88, 110);
+    font-size: 2.5vw;
+}
+
+.abt {
+    font-family: 'Sacramento';
+}
+
+.name {
+    font-family: 'Tangerine';
+    font-weight: 600;
+    color: rgb(242, 59, 84);
+    font-size: 3vw;
+}
+
+.name:hover {
+    color: rgb(224, 97, 213);
+}
+
+.typingtxt {
+    font-family: 'Goergia';
+    font-size: 3vw;
+}
+
+.work {
+    font-size: 3vw;
+    font-family: 'Sacramento';
+}
+
+#typing-effect {
+    font-family: 'Dancing Script';
+    color: rgb(156, 8, 67);
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+.titles {
+    background-color: whitesmoke;
+    font-family: 'Tangerine';
+    font-size: 3vw;
+    font-weight: 700;
+    color: black;
+}
+
+.title {
+    padding-left: 3vw;
+    font-family: 'Tangerine';
+    font-size: 3.5vw;
+    font-weight: 700;
+    color: black;
+}
+
+.inner {
+    border: solid black;
+    border-radius: 1vw;
+    padding: 2vw;
+    background-color: whitesmoke;
+}
+
+.summary {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 3vw;
+    background-color: pink;
+}
+
+.summary2 {
+    padding: 3vw;
+    background-color: pink;
+}
+
+.together {
+    padding: 3vw;
+    background-color: rgb(247, 221, 225);
+}
+
+.info_summary {
+    background-color: whitesmoke;
+    font-family: 'emboss';
+    font-size: 1.5vw;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.card {
+    position: relative;
+    height: 35vw;
+    width: 25vw;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35vw;
+    width: 25vw;
+    object-fit: cover;
+}
+
+.card-text {
+    position: absolute;
+    padding-left: 1vw;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    height: 16vw;
+    width: 25vw;
+    transition: opacity 0.2s;
+}
+
+.card:hover .card-text {
+    opacity: 1;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 2vw;
+}
+
+.card-description {
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+}
+
+.card-button {
+    width: 15vw;
+    height: 3vw;
+    display: basel;
+}
+
+.card-button:hover {
+    background-color: #f2f2f2;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Goergia';
+}
+
+.flex-container h2 {
+    font-size: 2vw;
+    font-weight: 600;
+    padding-bottom: 2vw;
+}
+
+.flex-container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.st {
+    font-family: 'sofia';
+}
+
+.tech-skills,
+.soft-skills {
+    font-size: 1.5vw;
+    display: inline-flex;
+    flex-direction: column;
+    border: 0.2vw solid;
+    border-radius: 1vw;
+    padding: 2vw;
+    width: 25vw;
+    font-family: 'emboss';
+}
+
+.progress {
+    background-color: #ddd;
+    border-radius: 0.5vw;
+    height: 1.5vw;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background-color: rgb(184, 22, 127);
+    border-radius: 0.5vw;
+    height: 1.5vw;
+}
+
+.percentage {
+    font-weight: bold;
+}
+
+
+/*project*/
+
+.project-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 2vw;
+    box-sizing: border-box;
+}
+
+.category-card {
+    width: calc(50% - 4vw);
+    height: 6vw;
+    background-color: rgb(244, 237, 162);
+    border-radius: 10px;
+    padding: 1vw;
+    margin: 1vw;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'sofia';
+}
+
+.category-card:hover {
+    transform: translateY(-1vw);
+    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.2);
+}
+
+.category-card h3 {
+    margin: 1vw 0 0;
+    font-size: 2.5vw;
+    color: #333;
+    text-align: center;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup-content {
+    border-radius: 10px;
+    padding: 5vw;
+    overflow-y: auto;
+    text-align: center;
+    background-color: rgb(247, 221, 225);
+    max-width: 80vw;
+}
+
+.popup-content h2 {
+    margin-top: 0;
+    font-size: 4vw;
+    color: #333;
+    font-family: 'sofia';
+}
+
+.project {
+    margin-bottom: 1vw;
+    padding: 0.5vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(244, 237, 162);
+    text-align: left;
+    font-family: 'emboss';
+    font-size: 2vw;
+}
+
+.project h3 {
+    margin-top: 0;
+    font-size: 2.5vw;
+    color: #333;
+}
+
+.project p {
+    margin-bottom: 0;
+    color: #777;
+}
+
+.close {
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+    font-size: 2.5vw;
+    color: #333;
+    cursor: pointer;
+}
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+    .category-card {
+        width: calc(100% - 4vw);
+        height: 10vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .category-card {
+        width: calc(100% - 4vw);
+        height: 9vw;
+    }
+}
+
+.social-media-icons {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.social-media-icons a {
+    padding-right: 2vw;
+    color: black;
+}
+
+.leave-message {
+    margin-left: 30vw;
+    margin-right: 30vw;
+    text-align: center;
+    font-family: 'Sacramento';
+    color: black;
+    border: solid black 0.2px;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+.leave-message h2 {
+    font-family: 'Tangerine';
+    font-size: 3vw;
+    font-weight: 800;
+}
+
+.leave-message input {
+    width: 90%;
+    margin: 1%;
+    padding: 0.5vw;
+}
+
+.leave-message textarea {
+    width: 90%;
+    margin: 1%;
+    padding: 1vw;
+}
+
+.leave-message button {
+    font-family: 'Tangerine';
+    font-size: 1.5vw;
+    font-weight: 600;
+    padding: 0.2vw;
+    width: 20%;
+}
