@@ -115,6 +115,7 @@ nav {
 }
 
 .title {
+    padding-top:5vw;
     padding-left: 3vw;
     font-family: 'Tangerine';
     font-size: 3.5vw;
@@ -142,7 +143,6 @@ nav {
 }
 
 .together {
-    padding top: 5vw;
     padding: 3vw;
     background-color: rgb(247, 221, 225);
 }
